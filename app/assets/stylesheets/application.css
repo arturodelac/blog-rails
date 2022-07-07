@@ -135,4 +135,8 @@ input:focus {
         padding-left: 64px;
         padding-right: 64px;
     }
+    .grid-cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
