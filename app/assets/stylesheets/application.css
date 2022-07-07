@@ -128,3 +128,11 @@ input:focus {
     outline: none;
     border-color: blueviolet;
 }
+
+@media only screen and (max-width: 600px) {
+    .content {
+        padding-top: 64px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
